@@ -1,0 +1,237 @@
+{
+    "general": {
+        "main": {
+            "profile": "Профил",
+            "settings": "Настройки",
+            "logout": "Изход",
+            "back": "Назад",
+            "cancel": "Откажи",
+            "delete": "Изтрий",
+            "edit": "Редактирай",
+            "save": "Запази промените",
+            "filter": "Филтър",
+            "showSections": "Покажи секции:",
+            "pages": "на страница",
+            "deleteConfirmation": "Сигурни ли сте, че искате да изтриете?",
+            "selectPlaceholder": "Изберете ..."
+        },
+        "themes": {
+            "name": "Тема",
+            "default": "Синя",
+            "green": "Зелена",
+            "red": "Червена",
+            "yellow": "Жълта",
+            "indigo": "Индиго",
+            "dark": "Черна"
+        },
+        "buttons": {
+            "users": "Потребители",
+            "roles": "Роли",
+            "targets": "Цели",
+            "shipments": "Доставки",
+            "partitions": "Партиди",
+            "addresses": "Адреси",
+            "articles": "Артикули",
+            "refunds": "Връщания",
+            "products": "Продукти",
+            "categories": "Категории",
+            "orders": "Поръчки",
+            "barcodes": "Баркодове",
+            "warehouse": "Склад",
+            "config": "Конфиг."
+        }
+    },
+    "login": {
+        "title": "Вход",
+        "email": "Имейл",
+        "emailHelper": "Моля, въведете имейл",
+        "password": "Парола",
+        "passwordHelper": "Моля, въведете парола",
+        "loginButton": "Влез",
+        "testButton": "Тествай",
+        "errors": {
+            "invalidLogin": {
+                "title": "Грешка",
+                "description": "Невалидни имейл или парола"
+            }
+        }
+    },
+    "users": {
+        "keys": {
+            "id": "№",
+            "dateAdded": "Добавен на",
+            "dateModified": "Променен на",
+            "username": "Потребител",
+            "password": "Парола",
+            "firstName": "Име",
+            "lastName": "Фамилия",
+            "email": "Имейл",
+            "userRole": "Роля",
+            "birthDate": "Роден на",
+            "hireDate": "Нает на",
+            "leaveDate": "Напуснал на",
+            "phone": "Тел.",
+            "address": "Адрес",
+            "active": "Активен",
+            "employmentContract": "Договор"
+        },
+        "values": {
+            "dateAdded": "{{val, datetime}}",
+            "dateModified": "{{val, datetime}}",
+            "birthDate": "{{val, datetime}}",
+            "hireDate": "{{val, datetime}}",
+            "leaveDate": "{{val, datetime}}",
+            "active": "",
+            "active_ACTIVE": "Активен",
+            "active_NOT_ACTIVE": "Неактивен"
+        },
+        "toasts": {
+            "title": "Готово!",
+            "description": "Потребителят беше обновен успешно!"
+        },
+        "options": {
+            "ACTIVE": "Активен",
+            "NOT_ACTIVE": "Неактивен"
+        },
+        "buttons": {
+            "create": "Добави нов потребител"
+        },
+        "titles": {
+            "create": "Добавяне на нов потребител",
+            "edit": "Редактиране на потребител",
+            "view": "Преглед на потребител"
+        },
+        "helpers": {
+            "username": "Моля, въведете потребителско име на латиница",
+            "password": "Моля, въведете парола минимум 8 символа",
+            "userRole": "Моля, изберете роля от списъка с роли",
+            "firstName": "Моля, въведете име на кирилица",
+            "lastName": "Моля, въведете фамилия на кирилица",
+            "email": "Моля, въведете валиден Email адрес",
+            "birthDate": "Моля, въведете дата на раждане",
+            "hireDate": "Моля, въведете дата на назначаване",
+            "phone": "Моля, въведете валиден телефонен номер",
+            "address": "Моля, въведете уличен адрес",
+            "employmentContract": "Моля, изберете актуален договор",
+            "active": "Моля, изберете активност"
+        },
+        "errors": {
+            "noData": "Няма никакви потребители"
+        }
+    },
+    "roles": {
+        "keys": {
+            "id": "№",
+            "dateAdded": "Добавен на",
+            "dateModified": "Променен на",
+            "name": "Роля",
+            "privileges": "Привилегии",
+            "targets": "Цели"
+        },
+        "values": {
+            "dateAdded": "{{val, datetime}}",
+            "dateModified": "{{val, datetime}}",
+            "privileges": "{{val, objectArray(key: 'name'; delimiter: ' | ')}}"
+        },
+        "toasts": {
+            "title": "Готово!",
+            "description": "Ролята беше обновена успешно!"
+        },
+        "buttons": {
+            "create": "Добави нова роля"
+        },
+        "titles": {
+            "create": "Добавяне на нова роля",
+            "edit": "Редактиране на роля",
+            "view": "Преглед на роля"
+        },
+        "helpers": {
+            "name": "Моля, въведете име на роля",
+            "privileges": "Моля, изберете привилегии"
+        },
+        "errors": {
+            "noData": "Няма никакви роли"
+        }
+    },
+    "partitions": {
+        "keys": {
+            "id": "№",
+            "name": "Партида",
+            "description": "Описание",
+            "quantity": "Количество",
+            "quantityType": "Тип",
+            "price": "Цена",
+            "receivingOrderLineId": "№ на поръчка",
+            "status": "Статус",
+            "createdBy": "Добавена от",
+            "modifiedBy": "Променена от",
+            "dateAdded": "Добавен на",
+            "dateModified": "Променен на"
+        },
+        "values": {
+            "dateAdded": "{{val, datetime}}",
+            "dateModified": "{{val, datetime}}",
+            "status": "",
+            "status_CREATED": "Създадена",
+            "status_FOR_WORK": "За работа",
+            "status_PROCESSING": "Обработва се",
+            "status_FROZEN": "Замразена",
+            "status_CLOSED": "Приключена",
+            "quantityType": "",
+            "quantityType_PCS": "Брой",
+            "quantityType_KG": "КГ"
+        },
+        "buttons": {
+            "refresh": "Обнови Партиди от Е1"
+        },
+        "toasts": {
+            "title": "Готово!",
+            "description": "Партидата беше обновена успешно!"
+        },
+        "errors": {
+            "noData": "Няма никакви партиди"
+        }
+    },
+    "targets": {
+        "keys": {
+            "id": "№",
+            "dateAdded": "Добавен на",
+            "dateModified": "Променен на",
+            "name": "Име",
+            "target": "Цел",
+            "coefficient": "Коефицент",
+            "type": "Тип",
+            "activeFrom": "Валидна от",
+            "activeTo": "Валидна до"
+        },
+        "values": {
+            "dateAdded": "{{val, datetime}}",
+            "dateModified": "{{val, datetime}}",
+            "activeFrom": "{{val, datetime}}",
+            "activeTo": "{{val, datetime}}"
+        },
+        "toasts": {
+            "title": "Готово!",
+            "description": "Целта беше обновена успешно!"
+        },
+        "buttons": {
+            "create": "Добави нова цел"
+        },
+        "titles": {
+            "create": "Добавяне на нова цел",
+            "edit": "Редактиране на цел",
+            "view": "Преглед на цел"
+        },
+        "helpers": {
+            "name": "Моля, въведете име на целта",
+            "target": "Моля, въведете цел в цифри",
+            "coefficient": "Моля, въведете коефицент в цифри",
+            "type": "Моля, изберете тип на целта",
+            "activeFrom": "Моля, въведете дата за начало на целта",
+            "activeTo": "Моля, въведете дата за край на целта"
+        },
+        "errors": {
+            "noData": "Няма никакви цели"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "client",
+    "version": "0.2.0",
+    "type": "module",
+    "types": "typings/index.d.ts",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "license": "UNLICENSED",
+    "dependencies": {
+        "@chakra-ui/icons": "^2.1.1",
+        "@chakra-ui/react": "^2.8.2",
+        "@chakra-ui/table": "^2.1.0",
+        "@chatscope/chat-ui-kit-react": "^1.10.1",
+        "@chatscope/chat-ui-kit-styles": "^1.4.0",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@fontsource-variable/montserrat": "^5.0.16",
+        "@hookform/resolvers": "^3.3.4",
+        "@react-hook/resize-observer": "^1.2.6",
+        "@tanstack/react-query": "^5.29.0",
+        "@tanstack/react-query-devtools": "^5.29.0",
+        "axios": "^1.5.1",
+        "chakra-react-select": "^4.7.6",
+        "framer-motion": "^10.16.4",
+        "i18next": "^23.10.1",
+        "i18next-http-backend": "^2.5.0",
+        "jwt-decode": "^4.0.0",
+        "qs": "^6.11.2",
+        "react": "^18.2.0",
+        "react-device-detect": "^2.2.3",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.50.1",
+        "react-icons": "^5.0.1",
+        "react-router-dom": "^6.16.0",
+        "react-web-share": "^2.0.2",
+        "uuidv4": "^6.2.13",
+        "zod": "^3.22.4",
+        "zod-i18n-map": "^2.27.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.19",
+        "@types/react": "^18.2.25",
+        "@types/react-dom": "^18.2.10",
+        "@vitejs/plugin-react": "^4.1.0",
+        "typescript": "^5.0.2",
+        "vite": "^5.0.2",
+        "vite-plugin-mock-dev-server": "^1.4.3"
+    }
+}
