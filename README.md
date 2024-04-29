@@ -32,9 +32,3 @@ yarn install
 yarn build --mode production
 yarn start
 ```
-
-aws ecr get-login-password --region eu-central-1 --profile contour | docker login --username AWS --password-stdin 022144273641.dkr.ecr.eu-central-1.amazonaws.com
-
-docker build -t 022144273641.dkr.ecr.eu-central-1.amazonaws.com/contour-frontend:latest --build-arg mode=production .
-
-docker push 022144273641.dkr.ecr.eu-central-1.amazonaws.com/contour-frontend:latest
